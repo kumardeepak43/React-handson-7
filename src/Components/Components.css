@@ -1,0 +1,77 @@
+body{
+    background-image:linear-gradient(rgb(129, 121, 122),rgb(110, 107, 91),rgba(108, 172, 173, 0.591),rgba(76, 159, 174, 0.623)) ;
+    background-repeat:no-repeat ;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    background-color: rgba(94, 150, 127, 0.6);
+    height: 70px;  
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+   text-align: center;
+   padding-bottom: 15px;
+}
+.item{
+
+padding: 15px;
+}
+.link{
+    color: whitesmoke;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.link:hover{
+    color: yellowgreen;
+}
+h1{
+    font-weight: bolder;
+    margin: 10px;
+}
+.tab{
+    width: 800px;
+    margin: 15px;
+    padding: 15px;
+    margin-left: 380px ;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+.new{
+    height: fit-content;
+    width: fit-content;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid rgb(90, 72, 106);
+    cursor: pointer;
+    border-radius: 25px;
+}
+.new:hover{
+    background-color: rgb(105, 230, 105);
+}
+.container{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.input{
+    margin: 50px;
+    width: 40%;
+    height: 80px;
+    border-radius: 25px;
+}
+.button{
+    margin: 10px;
+    width: 20%;
+    height: 25%;
+    font-size: xx-large;
+
+}
